@@ -59,3 +59,5 @@ SELECT fecha_contratacion as fecha from empleado where fecha_contratacion betwee
 SELECT estrato AS estrato, count(*) AS cantidad FROM estrato GROUP BY estrato
 
 SELECT sede AS sede, count(*) AS cantidad FROM sede GROUP BY sede
+
+select cc as empleado from empleado where edad_ between 17 and 25
