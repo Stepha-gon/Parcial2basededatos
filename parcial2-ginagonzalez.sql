@@ -45,6 +45,7 @@ SELECT id_estrato AS estrato, count(*) AS cantidad FROM empleado GROUP BY id_est
 SELECT  max(fecha_contratacion) as fecha from empleado 
 
 SELECT  min(fecha_contratacion) as fecha from empleado 
+SELECT SUM(sueldo) as sumasueldo FROM empleado
 
 
 select nombre,id_sede,id_cargo from empleado where cc=10662101
